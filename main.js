@@ -16,7 +16,7 @@ $("#searchButton").on("click", function (e) {
         var fahrenheit = Math.round((response.main.temp * (9 / 5) - 459.67));
         $("#cityName").text(response.name + " " + "(" + moment().format("MMMM Do YYYY") + ")");
         $("#temp").text(fahrenheit + " " + "°F")
-        $("#icon").attr("src", "http://openweathermap.org/img/wn/" + iconID + "@2x.png");
+        $("#icon").attr("src", "https://openweathermap.org/img/wn/" + iconID + "@2x.png");
         $("#humid").text("Humidity: " + response.main.humidity + "%");
         $("#wind").text("Wind Speed: " + response.wind.speed + " " + "MPH");
         $("#clouds").text("Cloudiness: " + response.clouds.all + "%");
