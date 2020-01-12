@@ -1,0 +1,180 @@
+html, body {
+    height: 100%;
+}
+
+.jumbotron {
+    margin-top: 10px;
+    width: 100%;
+    height: 100%;
+    border: 1px solid rgb(241, 240, 240);;
+    background: none;
+    float: right;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 0px;
+}
+
+#bottom-cont {
+    width: 75%;
+    height: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100%;
+}
+#right-cont {
+    width: 75%;
+    float: right;
+}
+
+#left-cont {
+    width: 25%;
+    float: left;
+    padding-left: 0px;
+    top: 0;
+    height: 100%;
+}
+
+#main-cont {
+    width: 100%;
+    height: 100%;
+}
+
+.left-card {
+    margin-left: 0px;
+    padding-left: 0px;
+    height: 100%;
+
+}
+
+.card {
+    border: none;
+    background-color: rgb(241, 240, 240);
+    height: 100%;
+}
+
+#search {
+    width: 70%;
+}
+
+.btn {
+    float: right;
+}
+
+.display-4 {
+    float: left;
+}
+
+#cityName {
+    margin-bottom: 0px;
+    margin-top: 13px;
+}
+
+.height {
+    height: 100%;
+}
+
+h4 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.five-day {
+    justify-content: space-between;
+}
+
+.five-card {
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+}
+
+.five-date {
+    margin-top: 10px;
+}
+
+.five-humidity {
+    margin-bottom: 10px;
+}
+
+.five-icon {
+    margin-top: 12px;
+    margin-bottom: 20px;
+}
+
+.citiesBtn {
+    margin-top: 15px;
+    margin-right: 30px;
+}
+
+#cities-cont {
+    margin-top: 15px !important;
+
+}
+
+@media screen and (max-width: 1290px) {
+    .btn-success {
+        margin-top: 18px!important;
+    }
+}
+
+@media screen and (max-width: 1220px) {
+    #main-cont {
+        display: block;
+    }
+    #left-cont {
+        display: block;
+        position: relative;
+        float: none;
+        width: 100%;
+        padding-left: 15px;
+        height: fit-content;
+        padding-bottom: 15px;
+    }
+    #right-cont {
+        display: block;
+        position: relative;
+        float: none;
+        width: 100%;
+    }
+    .left-card {
+        padding-left: 15px;
+    }
+    .btn-success {
+        margin-top: 0px!important;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .btn-success {
+        margin-top: 18px!important;
+    }
+}
+
+@media screen and (max-width: 1220px) {
+    #left-cont {
+        margin-top: 26px;
+    }
+    .citiesBtn {
+        float: left;
+        /* margin-right: 30px; */
+
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .five-card {
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 1382px) {
+    h3 {
+        font-size: 48px !important;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    h3 {
+        font-size: 40px !important;
+    }
+}
