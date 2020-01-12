@@ -87,9 +87,7 @@ $("#searchButton").on("click", function (e) {
 function renderCities() {
     $("#cities-cont").empty();
     for (var i = 0; i < cities.length; i++) {
-        // var newDiv = $("<div>").css("margin-top", "30px");
         var newButton = $("<button>").text(cities[i]).addClass("citiesBtn");
-        // newDiv.append(newButton);
         $("#cities-cont").prepend(newButton);
     }
 }
