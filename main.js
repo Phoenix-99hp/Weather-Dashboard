@@ -1,4 +1,4 @@
-cities = [];
+cities = ["Austin"];
 
 init();
 
